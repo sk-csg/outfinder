@@ -1,0 +1,16 @@
+[project]
+name = "outfinder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=0.3.26",
+    "langchain-google-genai>=2.1.6",
+    "langchain-ollama>=0.3.4",
+    "langgraph>=0.5.1",
+    "mljar-supervised>=1.1.18",
+    "pandas>=2.3.1",
+    "streamlit>=1.46.1",
+]
